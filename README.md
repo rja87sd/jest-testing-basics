@@ -50,3 +50,20 @@ Write tests for both functions in utils.test.js, covering expected behavior and 
 ### Update README.md:
 
 Document the setup process, how to run tests, and a brief explanation of each utility function and its tests.
+
+Setup steps:
+- Create a new repository and clone it down.
+- Open the terminal in the repisitory folder.
+- Run "npm init -y".
+- Run "npm i jest".
+- In package.json, configure your testing script to run jest.
+  ![alt text](image-1.png)
+- Create "utils.js" and add the following code:
+  ![alt text](image.png)
+- Create "app.test.js" and add the following
+  ![alt text](image-2.png)
+- In the terminal, run "npm test."
+- Observe the test results in the terminal.
+  
+### Credits  
+Credit to ChatGPT for explaining Jest, assistance with code, and code comments.
